@@ -1,0 +1,10 @@
+services:
+  elasticsearch:
+    image: elasticsearch:8.15.2
+    container_name: elasticsearch-container
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+    ports:
+      - "9200:9200"
+      - "9300:9300"

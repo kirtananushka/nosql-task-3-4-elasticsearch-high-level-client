@@ -1,0 +1,3 @@
+logging:
+  level:
+    com.tananushka.elastic.service.EmployeeService: DEBUG
